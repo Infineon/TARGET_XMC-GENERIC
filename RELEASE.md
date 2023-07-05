@@ -14,6 +14,11 @@ The XMC-GENERIC library includes the following:
 * API documentation
 
 ### What Changed?
+#### v2.2.0
+* Added functionality to enable BSP Assistant chip flow
+* Added capabilities to match BSPS created by BSP Assistant chip flow
+#### v2.1.0
+* Add macro `CYBSP_USER_BTN_DRIVE` indicating the drive mode that should be used for user buttons
 #### v2.0.0
 Note: This revision is only compatible with ModusToolbox Tools 3.0 and newer.
 * Updated recipe-make, core-make, and XMClib to new major versions
@@ -30,8 +35,8 @@ This version of the XMC-GENERIC BSP was validated for compatibility with the fol
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 3.0.0   |
-| GCC Compiler                              | 10.3.1  |
+| ModusToolbox™ Software Environment        | 3.1.0   |
+| GCC Compiler                              | 12.2.1  |
 
 Minimum required ModusToolbox™ Software Environment: v3.0.0
 
